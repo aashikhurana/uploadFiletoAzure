@@ -1,0 +1,24 @@
+{
+  "name": "simedarbynode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aashikhurana/uploadFiletoAzure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aashikhurana/uploadFiletoAzure/issues"
+  },
+  "homepage": "https://github.com/aashikhurana/uploadFiletoAzure#readme"
+}
