@@ -1,7 +1,7 @@
 const express = require('express')
 const crypto = require("crypto-js")
 const app = express()
-const port = 3000
+const port = process.env.PORT || 4001;
 
 
 app.get('/:filename', (req, res) => {
@@ -56,4 +56,6 @@ console.log("storageOBj",storageObj);
  res.send(storageObj);
 })
 
-app.listen(3000);
+app.listen(port, '0.0.0.0', () => {
+    console.log('Server is running s on port: ' + port)
+});
